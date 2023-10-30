@@ -1,0 +1,26 @@
+canvas {
+	background-color: darkgray;
+	outline: none;
+}
+
+body {
+	background-color: grey;
+	margin: 0;
+	overflow: hidden;
+}
+
+#dev-info {
+	position: absolute;
+	background: white;
+	color: red;
+	font-family: Helvetica;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-right: 10px;
+	top: 10px;
+	left: 10px;
+}
+
+#dev-info>* {
+	margin: 5px;
+}
